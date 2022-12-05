@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+body {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 120px;
+}
+
+.card {
+
+
+    display: grid;
+    /* grid-template-columns: 320px; */
+    grid-template-rows: 400px 210px 80px;
+    grid-template-areas: "image" "art" "text";
+  
+    border-radius: 18px;
+    background: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.479);
+    font-family: roboto;
+    text-align: center;
+    transform-style: preserve-3d;
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+.card-text {
+    transform: translate3d(0, 0, 50px);
+    font-family: 'Oleo Script Swash Caps', script;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(94, 94, 94);
+    font-size: 60px;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+  .card-text2 {
+    transform: translate3d(0, 0, 50px);
+    font-family: 'Crimson Text', serif;
+    color: white;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgb(95, 95, 95);
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    top: -180px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+body {
+  background: url("./assets/bg3.jpg");
+}
