@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+h1 {
+  font-family: 'Oleo Script Swash Caps', script;
+  color: rgb(76, 75, 75);
+  text-shadow: 1px 1px 2px rgb(94, 94, 94);
+  font-size: 100px;
+  margin: 0;
+  padding-top: 180px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  color: rgb(76, 75, 75);
+  margin: 0;
+  text-shadow: 1px 1px 2px rgb(95, 95, 95);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 270px;
+  padding-right: 270px;
+}
+
+a, a :visited {
+    text-decoration: none;
+  }
+
+body {
+    background: url("assets/bg4.jpg");
+}
